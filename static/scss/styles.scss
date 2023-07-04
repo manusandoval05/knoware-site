@@ -1,11 +1,22 @@
+@import 'components/colors';
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1500px;
+}
+section{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
 .navbar{
-    width: 100vw;
+    width: 99vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,7 +59,7 @@
     }
 }
 .hero-banner{
-    width: 100vw;
+    display: block;
     height: calc(100vh - 68px);
     overflow-x: hidden;
     background-image: url("../img/banner.jpg");
@@ -76,7 +87,7 @@
                 height: 256px;
            }
         }
-        h1.title{
+        .title{
             color: #bbc4ec;
             text-align: center;
             font-size: 2.5em;
@@ -113,3 +124,67 @@
         }
     }
 }
+.service-cards{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .card{
+        width: 400px;
+        border: 1px;
+        margin-bottom: 100px;
+        .card-image{
+            display: flex;
+            justify-content: center;
+            .image-container{
+                width: 200px; 
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                border-radius: 50%;
+                svg{
+                    width: 128px; 
+                    height: 128px;
+                }
+            }
+        }
+        .card-body{
+            .title{
+                font-size: 1.2em;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .content{
+                font-size: 1em;
+                line-height: 1.6;
+            }
+        }        
+    }
+    
+}
+
+.divider-curve {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider-curve svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 150px;
+}
+
+.divider-curve .shape-fill {
+    fill: #FFFFFF;
+}
+

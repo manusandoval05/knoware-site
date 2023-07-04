@@ -1,0 +1,70 @@
+$blue4: #04235b;
+$blue3: #063384;
+$blue2: #0854db;
+$blue1: #07729f;
+$purple: #720684;
+$yellow4: #db9a08; 
+$yellow3: #e8a30e;
+$yellow2: #ffd270;
+$yellow1: #efd69f;
+
+.blue4{
+    background-color: $blue4;
+}
+.blue3{
+    background-color: $blue3;
+}
+.blue2{
+    background-color: $blue2;
+}
+.blue1{
+    background-color: $blue1;
+}
+.purple{
+    background-color: $purple;
+}
+.yellow4{
+    background-color: $yellow4;
+}
+.yellow3{
+    background-color: $yellow3;
+}
+.yellow2{
+    background-color: $yellow2;
+}
+.yellow1{
+    background-color: $yellow1;
+}
+
+.fill-blue4{
+    fill: $blue4;
+}
+.fill-blue3{
+    fill: $blue3;
+}
+.fill-blue2{
+    fill: $blue2;
+}
+.fill-blue1{
+    fill: $blue1;
+}
+.fill-purple{
+    fill: $purple;
+}
+.fill-yellow4{
+    fill: $yellow4;
+}
+.fill-yellow3{
+    fill: $yellow3;
+}
+.fill-yellow2{
+    fill: $yellow2;
+}
+.fill-yellow1{
+    fill: $yellow1;
+}
+.fill-white{
+    svg{
+        fill: white;
+    }
+}

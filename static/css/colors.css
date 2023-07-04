@@ -1,0 +1,75 @@
+.blue4 {
+  background-color: #04235b;
+}
+
+.blue3 {
+  background-color: #063384;
+}
+
+.blue2 {
+  background-color: #0854db;
+}
+
+.blue1 {
+  background-color: #07729f;
+}
+
+.purple {
+  background-color: #720684;
+}
+
+.yellow4 {
+  background-color: #db9a08;
+}
+
+.yellow3 {
+  background-color: #e8a30e;
+}
+
+.yellow2 {
+  background-color: #ffd270;
+}
+
+.yellow1 {
+  background-color: #efd69f;
+}
+
+.fill-blue4 {
+  fill: #04235b;
+}
+
+.fill-blue3 {
+  fill: #063384;
+}
+
+.fill-blue2 {
+  fill: #0854db;
+}
+
+.fill-blue1 {
+  fill: #07729f;
+}
+
+.fill-purple {
+  fill: #720684;
+}
+
+.fill-yellow4 {
+  fill: #db9a08;
+}
+
+.fill-yellow3 {
+  fill: #e8a30e;
+}
+
+.fill-yellow2 {
+  fill: #ffd270;
+}
+
+.fill-yellow1 {
+  fill: #efd69f;
+}
+
+.fill-white svg {
+  fill: white;
+}/*# sourceMappingURL=colors.css.map */
