@@ -74,24 +74,10 @@
   fill: white;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  max-width: 1500px;
-}
-
-section {
-  width: 99vw;
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
-}
-
 .navbar {
+  background-color: white;
+  z-index: 1000;
+  position: fixed;
   width: 99vw;
   display: flex;
   flex-direction: row;
@@ -131,6 +117,23 @@ section {
 }
 .navbar .navbar-container .navbar-menu ul li a:hover {
   background-color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+}
+
+section {
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .hero-banner {
