@@ -1,0 +1,21 @@
+.divider-curve {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.divider-curve svg {
+  position: relative;
+  display: block;
+  width: calc(111% + 1.3px);
+  height: 150px;
+}
+
+.divider-curve .shape-fill {
+  fill: white;
+}/*# sourceMappingURL=svg-dividers.css.map */

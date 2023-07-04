@@ -1,6 +1,6 @@
 @import 'components/colors';
 @import 'components/navbar';
-
+@import 'components/svg-dividers';
 *{
     margin: 0;
     padding: 0;
@@ -126,24 +126,5 @@ section{
     
 }
 
-.divider-curve {
-    position: absolute;
-    bottom: -20px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.divider-curve svg {
-    position: relative;
-    display: block;
-    width: calc(111% + 1.3px);
-    height: 150px;
-}
-
-.divider-curve .shape-fill {
-    fill: #FFFFFF;
-}
 
