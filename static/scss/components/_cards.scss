@@ -1,0 +1,46 @@
+.service-cards{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .card{
+        background-color: whitesmoke;
+        padding: 30px;
+        border-radius: 10px;
+        width: 400px;
+        border: 1px;
+        margin-bottom: 100px;
+        .card-image{
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            .image-container{
+                width: 200px; 
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                border-radius: 50%;
+                svg{
+                    width: 128px; 
+                    height: 128px;
+                }
+            }
+        }
+        .card-body{
+            .title{
+                font-size: 1.5em;
+                margin-bottom: 20px;
+            }
+            .content{
+                font-size: 1.2em;
+                line-height: 1.6;
+            }
+        }        
+    }
+    
+}
