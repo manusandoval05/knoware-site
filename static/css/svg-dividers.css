@@ -18,4 +18,48 @@
 
 .divider-curve .shape-fill {
   fill: white;
+}
+
+.relative-divider-curve {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.relative-divider-curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 127px;
+}
+
+.relative-divider-curve .shape-fill {
+  fill: #FFFFFF;
+}
+
+.divider-container {
+  height: 30px;
+}
+
+.triangle-divider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.triangle-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.triangle-divider .shape-fill {
+  fill: #FFFFFF;
 }/*# sourceMappingURL=svg-dividers.css.map */
