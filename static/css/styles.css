@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+.whitesmoke {
+  background-color: whitesmoke;
+}
+
+.nearwhite {
+  background-color: rgb(255, 255, 255);
+}
+
 .blue4 {
   background-color: #04235b;
 }
@@ -101,7 +109,6 @@
   justify-content: space-around;
 }
 .service-cards .card {
-  background-color: whitesmoke;
   padding: 30px;
   border-radius: 10px;
   width: 400px;
@@ -351,6 +358,18 @@
 
 .triangle-divider .shape-fill {
   fill: #FFFFFF;
+}
+
+.neo-in {
+  background: white;
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 5px -1px rgba(2, 32, 56, 0.16), inset -5px -5px 5px -1px rgba(230, 230, 230, 0.7);
+}
+
+.neo-out {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(230, 230, 230, 0.7);
 }
 
 * {
