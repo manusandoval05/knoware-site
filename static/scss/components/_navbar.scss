@@ -26,18 +26,18 @@
                 justify-content: center;
                 align-items: center;
                 margin-bottom: 0.5rem;
+                list-style: none;
                 li{
-                    list-style: none;
                     a{
                         text-decoration: none;
                         font-weight: 500;
                         font-size: 1.2em;
                         color: black; 
-                        padding: 8px 15px;
-                        border-radius: 15px;
+                        padding: 20px 15px;
                     }
                     a:hover{
-                        background-color: blue;
+                        border-top: 5px solid #0854db;
+                        transition: border-top 300ms;
                     }
                 }
             }
