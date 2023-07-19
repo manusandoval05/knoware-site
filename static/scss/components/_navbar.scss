@@ -28,16 +28,20 @@
                 margin-bottom: 0.5rem;
                 list-style: none;
                 li{
+                    list-style: none;
+                    text-decoration: none;
                     a{
                         text-decoration: none;
                         font-weight: 500;
                         font-size: 1.2em;
                         color: black; 
-                        padding: 20px 15px;
+                        padding-top: 26px;
+                        padding-bottom: 8px;
+                        padding-left: 15px;
+                        padding-right: 15px;
                     }
                     a:hover{
-                        border-top: 5px solid #0854db;
-                        transition: border-top 300ms;
+                        border-top: 3px solid black;
                     }
                 }
             }

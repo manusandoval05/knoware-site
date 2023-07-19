@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 @import 'components/colors';
+@import 'components/texts';
 @import 'components/cards';
 @import 'components/navbar';
 @import 'components/heroes';
@@ -17,10 +18,23 @@
 .container{
     max-width: 1500px;
 }
-section{
+.full-width{
     width: 100%;
+}
+.flex-center{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.column-direction{
+    flex-direction: column;
+}
+section{
+    width: 100%;
     overflow-x: hidden;
 }
 
