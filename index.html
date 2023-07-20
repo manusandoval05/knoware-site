@@ -19,6 +19,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
+    <nav class="navbar-mobile" id="navbar-mobile">
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Madurez Digital</a></li>
+                <li><a href="">Nuestros Proyectos</a></li>
+                <li><a href="">Contacto</a></li> 
+            </ul>
+        </div>
+    </nav>
     <nav class="navbar">
         <div class="navbar-container">
             <div class="navbar-header">
@@ -33,6 +44,10 @@
                     <li><a href="">Contacto</a></li>
                 </ul>
             </div>
+            <div class="hamburger-toggle" id="hamburger-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+            
         </div>
     </nav>
     <section class="hero-banner image-banner">
@@ -351,4 +366,13 @@
     <section class="gradient3">
 
     </section>
+
+    <script>
+        const hamburgerToggle = document.getElementById("hamburger-toggle");
+        const navbarMobile = document.getElementById("navbar-mobile");
+
+        hamburgerToggle.onclick = () => {
+            navbarMobile.classList.toggle("active");
+        }
+    </script>
 </body>

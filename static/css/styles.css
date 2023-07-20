@@ -210,7 +210,56 @@
 .navbar .navbar-container .navbar-menu ul li a:hover {
   border-top: 3px solid black;
 }
+.navbar .navbar-container .hamburger-toggle {
+  font-size: 64px;
+  display: none;
+}
+.navbar-mobile {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-mobile.active {
+  left: 0;
+}
+.navbar-mobile .menu-mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-mobile .menu-mobile ul {
+  list-style: none;
+}
+.navbar-mobile .menu-mobile ul li {
+  height: 40px;
+  font-size: 2em;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+.navbar-mobile .menu-mobile ul li a {
+  text-decoration: none;
+}
+.navbar-mobile .menu-mobile ul li:hover {
+  background-color: blue;
+}
 
+@media (max-width: 1000px) {
+  .navbar .navbar-container .navbar-menu {
+    display: none;
+  }
+  .navbar .navbar-container .hamburger-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .hero-banner.image-banner {
   background-image: url("../img/banner.jpg");
 }
