@@ -369,6 +369,11 @@
      object-fit: cover;
 }
 
+@media (max-width: 800px) {
+  .hero-banner .hero-content .image-container {
+    display: none;
+  }
+}
 .divider-curve {
   position: absolute;
   bottom: 20px;

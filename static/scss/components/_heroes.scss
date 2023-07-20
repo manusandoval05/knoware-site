@@ -104,3 +104,13 @@
         }
     }
 }
+
+@media (max-width: 800px){
+    .hero-banner{
+        .hero-content{
+            .image-container{
+                display: none;
+            }
+        }
+    }
+}
