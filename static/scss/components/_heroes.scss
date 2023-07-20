@@ -116,6 +116,14 @@
 @media (max-width: 1000px){
     .hero-banner.half{
         grid-template-columns: 1fr;
+        .hero-content{
+            margin-top: 200px;
+        }
+    }
+    .hero-banner{
+        .hero-content.mt{
+            margin-top: 200px;
+        }
     }
 }
 
@@ -125,6 +133,22 @@
         .hero-content{
             .image-container{
                 display: none;
+            }
+            .image-container.s-25{
+                display: block;
+                width: 75%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .image-container.s-75{
+                display: block;
+                width: 75%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
     }

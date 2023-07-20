@@ -386,10 +386,32 @@
   .hero-banner.half {
     grid-template-columns: 1fr;
   }
+  .hero-banner.half .hero-content {
+    margin-top: 200px;
+  }
+  .hero-banner .hero-content.mt {
+    margin-top: 200px;
+  }
 }
 @media (max-width: 800px) {
   .hero-banner .hero-content .image-container {
     display: none;
+  }
+  .hero-banner .hero-content .image-container.s-25 {
+    display: block;
+    width: 75%;
+  }
+  .hero-banner .hero-content .image-container.s-25 img {
+    width: 100%;
+    height: auto;
+  }
+  .hero-banner .hero-content .image-container.s-75 {
+    display: block;
+    width: 75%;
+  }
+  .hero-banner .hero-content .image-container.s-75 img {
+    width: 100%;
+    height: auto;
   }
 }
 .divider-curve {
@@ -492,6 +514,10 @@
 .center {
   display: flex;
   justify-content: center;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .column-direction {
