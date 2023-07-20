@@ -334,7 +334,8 @@
 }
 
 .hero-banner.half {
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .hero-banner.half .hero-content {
   width: 100%;
@@ -345,6 +346,13 @@
   width: 25%;
 }
 .hero-banner.half .hero-content .image-container.s-25 img {
+  width: 100%;
+  height: auto;
+}
+.hero-banner.half .hero-content .image-container.s-75 {
+  width: 75%;
+}
+.hero-banner.half .hero-content .image-container.s-75 img {
   width: 100%;
   height: auto;
 }
@@ -374,6 +382,11 @@
      object-fit: cover;
 }
 
+@media (max-width: 1000px) {
+  .hero-banner.half {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 800px) {
   .hero-banner .hero-content .image-container {
     display: none;
