@@ -271,11 +271,12 @@
 }
 
 .hero-banner {
-  height: calc(100vh - 68px);
+  min-height: calc(100vh - 68px);
   overflow-x: hidden;
   background-size: cover;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .hero-banner .hero-content {
   position: relative;
