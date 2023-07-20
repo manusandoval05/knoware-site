@@ -69,9 +69,11 @@ $mobile-navbar-width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: left 0.5s;
 
     &.active{
         left: 0;
+        transition: left 0.5s;
     }
     .menu-mobile{
         width: 100%;

@@ -225,9 +225,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: left 0.5s;
 }
 .navbar-mobile.active {
   left: 0;
+  transition: left 0.5s;
 }
 .navbar-mobile .menu-mobile {
   width: 100%;
