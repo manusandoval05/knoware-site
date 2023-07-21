@@ -167,6 +167,7 @@
   width: 300px;
   border: 1px solid black;
   border-radius: 10px;
+  display: flex;
 }
 .project-card .card-image {
   border-radius: 10px;
@@ -509,6 +510,23 @@
 .neo-out {
   border-radius: 20px;
   box-shadow: 3px 3px 3px -1px rgba(10, 99, 169, 0.16), -3px -3px 3px -1px rgba(230, 230, 230, 0.7);
+}
+
+.btn-knoware {
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px;
+  max-width: 256px;
+  font-size: 1.5em;
+  text-decoration: none;
+  background-color: #0854dc;
+  color: white;
+  margin-right: 20px;
+}
+.btn-knoware:hover {
+  background-color: black;
+  color: white;
 }
 
 * {
