@@ -386,7 +386,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/Agro_4.0_en_Queretaro.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -395,7 +395,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/Analisis_Madurez_Querétaro.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -404,7 +404,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/Mapa_de_Ruta_de_Electromovilidad.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -413,7 +413,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/mapaderutaicd.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -422,7 +422,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/Ecosistema_de_Innovacion.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -431,7 +431,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/plan-orbita.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -440,7 +440,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/PLAN_DE_VUELO_MAPA_DE_RUTA_TECNOLÓGICO_SECTOR_AEROESPACIAL.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -449,7 +449,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/Transformación_digital_e_industria_4.0_V3_2.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -458,7 +458,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/Crafting_the_future_-_10_agosto_2016.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                     <div class="project-card">
@@ -467,7 +467,7 @@
                         </div>
                         <div class="card title"></div>
                         <div class="card-content">
-                            <a href="static/pdf/50_tecnologias.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
+                            <a href="static/pdf/CTA_Smart_Cities_in_Mexico_2021.pdf" target="_blank" rel="noopener noreferrer" class="btn-knoware blue">Descargar</a>
                         </div>
                     </div>
                 </div>
@@ -498,14 +498,23 @@
     <script>
         window.addEventListener('load', () => {
             new Glider(document.querySelector(".glider"), {
-                slidesToShow: 5,
-                slidesToScroll: 5,
+                slidesToShow: 2,
+                slidesToScroll: 2,
                 draggable: true,
                 dots: '.dots',
                 arrows: {
                     prev: '.glider-prev',
                     next: '.glider-next'
-                }
+                },
+                responsive: [
+                    {
+                        breakpoint: 1000,
+                        settings: {
+                            slidesToScroll: 4,
+                            slidesToShow: 4
+                        }
+                    }
+                ]
             });
         });
     </script>
