@@ -162,6 +162,25 @@
   width: 100%;
   height: 100%;
 }
+
+.project-card {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.project-card .card-image {
+  border-radius: 10px;
+  width: 100%;
+}
+.project-card .card-image img {
+  border-radius: 11px;
+  width: 100%;
+  height: auto;
+}
+.project-card .card-title {
+  font-size: 1.5em;
+}
+
 .navbar {
   background-color: white;
   z-index: 1000;
