@@ -167,7 +167,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 .project-card .card-image {
   border-radius: 10px;
@@ -552,11 +552,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
 }
 
 .mb-50 {
