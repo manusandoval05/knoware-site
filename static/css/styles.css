@@ -164,10 +164,10 @@
 }
 
 .project-card {
-  width: 300px;
-  border: 1px solid black;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .project-card .card-image {
   border-radius: 10px;
@@ -180,6 +180,11 @@
 }
 .project-card .card-title {
   font-size: 1.5em;
+}
+.project-card .card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -522,7 +527,6 @@
   text-decoration: none;
   background-color: #0854dc;
   color: white;
-  margin-right: 20px;
 }
 .btn-knoware:hover {
   background-color: black;

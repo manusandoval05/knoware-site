@@ -56,10 +56,10 @@
 }
 
 .project-card{
-    width: 300px;
-    border: 1px solid black;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .card-image{
         border-radius: 10px;
         width: 100%;
@@ -71,5 +71,10 @@
     }
     .card-title{
         font-size: 1.5em;
+    }
+    .card-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
