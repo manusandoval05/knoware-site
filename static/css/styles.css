@@ -213,7 +213,9 @@
 .navbar .navbar-container .hamburger-toggle {
   font-size: 64px;
   display: none;
+  cursor: pointer;
 }
+
 .navbar-mobile {
   position: fixed;
   z-index: 10;

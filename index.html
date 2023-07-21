@@ -371,8 +371,14 @@
         const hamburgerToggle = document.getElementById("hamburger-toggle");
         const navbarMobile = document.getElementById("navbar-mobile");
 
+        const icon = hamburgerToggle.querySelector(".bi");
+
         hamburgerToggle.onclick = () => {
             navbarMobile.classList.toggle("active");
+            
+            icon.classList.toggle("bi-list");
+            icon.classList.toggle("bi-x");
+            
         }
     </script>
 </body>
