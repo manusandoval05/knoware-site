@@ -300,6 +300,7 @@
 .hero-banner {
   min-height: calc(100vh - 68px);
   overflow-x: hidden;
+  overflow-y: hidden;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -556,6 +557,14 @@
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-150 {
+  margin-top: 150px;
 }
 
 .column-direction {
