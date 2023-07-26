@@ -19,6 +19,10 @@
   background-color: #0854db;
 }
 
+.blue2-transparent {
+  background-color: rgba(8, 84, 219, 0.3);
+}
+
 .blue1 {
   background-color: #07729f;
 }
