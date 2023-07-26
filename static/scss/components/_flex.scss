@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+
+    &.jc-center{
+        justify-content: center;
+    }
+    &.ai-center{
+        align-items: center;
+    }
+
+    &.column{
+        flex-direction: column;
+    }
+    &.wrap{
+        flex-wrap: wrap;
+    }
+    &.gap-150{
+        gap: 150px;
+    }
+}

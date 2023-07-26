@@ -129,6 +129,10 @@
   font-size: 1.5em;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .service-cards {
   display: flex;
   margin-top: 100px;
@@ -586,6 +590,46 @@
   color: white;
 }
 
+.footer {
+  background-color: blue;
+  color: white;
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+}
+.flex.jc-center {
+  justify-content: center;
+}
+.flex.ai-center {
+  align-items: center;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.wrap {
+  flex-wrap: wrap;
+}
+.flex.gap-150 {
+  gap: 150px;
+}
+
+.grid.half {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid.half .content {
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+}
+
+@media (max-width: 1000px) {
+  .grid.half {
+    grid-template-columns: 1fr;
+  }
+}
 * {
   margin: 0;
   padding: 0;
