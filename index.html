@@ -23,11 +23,11 @@
     <nav class="navbar-mobile" id="navbar-mobile">
         <div class="menu-mobile">
             <ul>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#madurez-digital">Madurez Digital</a></li>
-                <li><a href="#proyectos">Nuestros Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li> 
+                <li class="mobile-navbar-link"><a href="#nosotros">Nosotros</a></li>
+                <li class="mobile-navbar-link"><a href="#servicios">Servicios</a></li>
+                <li class="mobile-navbar-link"><a href="#madurez-digital">Madurez Digital</a></li>
+                <li class="mobile-navbar-link"><a href="#proyectos">Nuestros Proyectos</a></li>
+                <li class="mobile-navbar-link"><a href="#contacto">Contacto</a></li> 
             </ul>
         </div>
     </nav>
@@ -530,6 +530,16 @@
         const navbarMobile = document.getElementById("navbar-mobile");
 
         const icon = hamburgerToggle.querySelector(".bi");
+
+        const navbarLinks = document.querySelectorAll(".mobile-navbar-link");
+
+        navbarLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                navbarMobile.classList.remove("active");
+                icon.classList.remove("bi-x");
+                icon.classList.add("bi-list");
+            })
+        })
 
         hamburgerToggle.onclick = () => {
             navbarMobile.classList.toggle("active");
