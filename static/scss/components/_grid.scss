@@ -7,6 +7,12 @@
         gap: 30px;
     }
 }
+.grid-gap{
+    &-30{
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
 @media (max-width: 1000px){
     .grid.half{
         grid-template-columns: 1fr;
